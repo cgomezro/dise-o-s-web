@@ -1,0 +1,193 @@
+.headabc{
+  width: 100%;
+  background-color: rgba(20, 30, 71, 0.83)!important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  img{
+    max-width: 50%;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 2%;
+  }
+}
+.bodyabc{
+  background: url(./../../LandingInvest/assets/about/aboutbc.png) no-repeat center center
+  scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
+  p{
+    color:white;
+    text-align: center;
+    font-family: articulat-cf, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+  .bodydiv{
+       padding-top: 6%;
+  }
+  .our{
+    width: 100%;
+    background-color: rgba(20, 30, 71, 0.83)!important;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    h3{
+      font-family: articulat-cf, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      line-height: 0.8;
+      font-size: 2.5rem;
+      text-align: center;
+      color: white;
+     }
+     .boxl{
+
+      padding-left:140px;
+      padding-right: 25px;
+     }
+     .boxr{
+      padding-left:25px;
+      padding-right: 140px;
+     }
+  }
+
+  .market {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:6%;
+     text-align: center;
+     color: white;
+    background-color: rgba(20, 30, 71, 0.83);
+    img{
+      max-width: 28%;
+      position: relative;
+      display: block;
+      margin: auto;
+      padding: 2%;
+    }
+    .bml{
+
+      padding-left:140px;
+      padding-right: 25px;
+     }
+     .bmr{
+      padding-left:25px;
+      padding-right: 140px;
+     }
+     .multifaceted{
+     .tabc{
+      margin: auto;
+      width: 80%;
+      margin-bottom: 4%;
+     }
+      h1{
+        line-height: 0.9;
+        margin-bottom: -5px;
+          
+      .multi{
+        font-family: articulat-cf, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.3rem;
+      }
+      .revenue{
+        font-family: articulat-cf, sans-serif;
+          font-weight: 900;
+          font-style: normal;
+          font-size: 4rem;
+      }}
+     }
+  }
+
+}
+
+
+.footabc{
+  width: 100%;
+  background-color: rgba(20, 30, 71, 0.83)!important;
+  margin-left: auto;
+  margin-right: auto;
+   img{
+    max-width: 18%;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 2%;
+  }
+}
+
+
+@media (max-width: 991px) {
+
+  .bodyabc{
+
+   .our{
+     
+       .boxl{
+  
+        padding-left:40px;
+        padding-right: 10x;
+       }
+       .boxr{
+        padding-left:10px;
+        padding-right: 40px;
+       }
+    }
+  
+.market{
+  .bml{
+  
+    padding-left:40px;
+    padding-right: 10x;
+   }
+   .bmr{
+    padding-left:10px;
+    padding-right: 40px;
+   }
+}
+  }
+
+  }
+@media (max-width: 768px) {
+  .bodyabc{
+
+    .our{ 
+        .boxl{
+   
+         padding-left:20px;
+         padding-right: 20x;
+        }
+        .boxr{
+         padding-left:20px;
+         padding-right: 20px;
+        }
+     }
+     .market{
+      .bml{
+      
+        padding-left:20px;
+        padding-right: 20x;
+       }
+       .bmr{
+        padding-left:20px;
+        padding-right: 20px;
+       }
+    }
+    }  
+   
+   }
+ 
+
+
+  
+
+
+@media (max-width: 576px) {
+
+}

@@ -1,0 +1,209 @@
+
+.principal{
+align-items: center;
+display: flex;
+height: 80vh;
+background-color: #fff;
+  background: url(./../../LandingInvest/assets/fondov.png) no-repeat center center
+    scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.divisor{
+  padding-bottom: 10px;
+}
+.secundario{
+margin-top:0px;
+text-align: center;
+color: white;
+}
+.primary{
+  font-family: articulat-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.5vw;
+}
+
+.secondary{
+  font-family: articulat-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.5vw;
+  background-color: #6EBA63;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bce{
+  font-weight: bold;
+}
+
+.play{
+  opacity: 1;
+  height: 100px;
+ 
+}
+img{
+  position: relative;
+  cursor: pointer;
+  
+}
+.boxtxt{
+  width: 60%;
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+  margin: 10px auto;
+  padding-bottom: 5px;
+  
+}
+
+.modal{
+  background-color: rgba(20, 30, 71, 0.23);
+
+--bs-modal-footer-border-width: 0px!important;
+--bs-modal-border-color:none!important;
+--bs-modal-bg: none!important;
+}
+
+.modal-content{
+  border-top-left-radius: 0px!important;
+  border-top-right-radius: 0px!important; 
+}
+.modal-body{
+  padding: 0%!important;
+  margin-top:-35px!important;
+  
+}
+.modal-footer{
+  background-color: #203166!important;
+  text-align: center;
+  display: block!important;
+  color: white;
+  margin-top:-40px;
+  z-index: 1;
+  padding-left: 0%!important;
+  padding-right: 0%!important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 0.6;
+}
+.modal-header{
+display: block!important;
+background-color: transparent;
+margin-top:0px!important;
+z-index: 1000;
+border-bottom: none!important;
+}
+button.bv.btn.btn-secondary{
+  background-color: #B3B3B3!important;
+  border: none;
+  border-radius: 70%;
+  line-height: 1;
+  padding-left:12px;
+  padding-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 100%;
+  margin-right: 10px; 
+  }
+  button.bf.btn.btn-secondary{
+    background-color: #B3B3B3!important;
+    border: none;
+    border-radius: 70%;
+    line-height: 1;
+    padding-left:12px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 102%;
+    margin-right: 0px; 
+    }
+
+    button.bd.btn.btn-secondary{
+      background-color: #203166!important;
+      border: none;
+      padding-left: 8%;
+      padding-right: 8%;
+      font-family: articulat-cf, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      align-items: center;
+       
+      }
+      .republic{
+    height: 16px!important;
+  }
+  .inow{
+    font-family: articulat-cf, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.4rem;
+  }
+div.col-lg-7.form{
+  padding: 0%!important;
+  
+}
+
+div.col-lg-5.form{
+  padding: 0%!important;
+  
+}
+
+.aya{
+
+  font-family: articulat-cf, sans-serif;
+  font-weight:900;
+  font-style: normal;
+}
+
+.lform{
+ background-color: #2E3657!important;
+  border: 2px solid #203166!important;
+  color: White!important;
+  line-height: 1.2!important;
+ }
+input::placeholder{
+  color: white!important;
+}
+.check{
+  border:1px solid white!important;
+  border-radius: 0px!important;
+  display: inline-block;
+margin-left: 2%!important;
+margin-right: 2%!important;
+}
+.form-select{
+  
+  border: none;
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='14' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='white'/></g></svg>") no-repeat!important;
+  background-position: right 5px top 50%!important;
+  background-color: #2E3657!important;
+}
+  @media (max-width: 1200px) {
+ 
+      }
+
+  @media (max-width: 768px) {
+  
+     .boxtxt{
+      font-size: 1.2em;
+      width: 70%;
+    }   
+  }
+
+  @media (max-width: 576px) {
+  
+    a{
+      margin: auto;
+    }
+.boxtxt{
+  font-size: 1em;
+  width: 80%;
+}
+
+  }

@@ -1,0 +1,29 @@
+.icon-button {
+  text-decoration: none !important;
+  background: #fbfcfe;
+  border: 2px solid #e9edf0;
+  border-radius: 30px;
+  padding: 15px 10px 15px 10px;
+  line-height: 1;
+  cursor: pointer;
+  .icon-holder {
+    width: 50px;
+    color:rgba(0, 158, 219, 1);
+  }
+  .copy-holder {
+    color: #2a2b25;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+  .arrow-holder {
+    width: 40px;
+    color:rgba(0, 158, 219, 1);
+    img {
+      width: 12px;
+      position: relative;
+      top: 0px;
+    }
+  }
+}

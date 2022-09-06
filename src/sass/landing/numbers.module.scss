@@ -1,0 +1,53 @@
+.numbers {
+  padding-bottom: 50px;
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    margin: 0 0 25px 0;
+    span {
+      color: #71aad3;
+      display: block;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin: 0 0 10px;
+    }
+  }
+  p {
+    font-size: 1.5rem;
+    margin: 0 0 25px 0;
+    color: #333;
+  }
+}
+
+.tiles {
+  overflow-x: auto;
+  padding-bottom: 100px;
+  .tile {
+    background: #fff;
+    border-bottom: 5px solid #e9edf0;
+    position: relative;
+    padding: 20px;
+    img {
+      height:80px;
+    }
+    h4 {
+      color: rgba(0, 158, 219, 1);
+      margin: 20px 0 10px;
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: 1.05rem;
+      color: #808291;
+    }
+    .divider {
+      position: absolute;
+      bottom: -5px;
+      left: 20px;
+      width: 80px;
+      height: 5px;
+      background-color: rgba(0, 158, 219, 1);
+    }
+  }
+}

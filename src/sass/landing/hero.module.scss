@@ -1,0 +1,88 @@
+.hero {
+  background-color: #fff;
+  background: url(./../../Landing/assets/hero.jpg) no-repeat center center
+    scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  border-bottom: 5px solid #009edb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    font-size: 3.3rem;
+    ._2 {
+      margin-top: -15px;
+      //border:1px solid red;
+    }
+    .primary,
+    .secondary {
+      padding: 15px;
+      display: inline-block;
+    }
+    .primary {
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .secondary {
+      background-color: rgba(0, 158, 219, 1);
+      color: #fff;
+    }
+  }
+  button {
+    .icon-holder {
+      padding-left: 20px;
+      img {
+        height: 30px;
+      }
+      margin-right: 20px;
+    }
+    background: none;
+    border: none;
+    background: #009edb;
+    padding: 0;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    cursor: pointer;
+    .arrow-holder {
+      margin-left: 20px;
+      background: #007eaf;
+      height: 75px;
+      width: 60px;
+      img {
+        height: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    h2 {
+      font-size: 2.3rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

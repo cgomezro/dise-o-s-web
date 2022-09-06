@@ -1,0 +1,52 @@
+.problem-solution {
+  padding-bottom: 100px;
+  .problem,
+  .solution {
+    background: #fafafa;
+    position: relative;
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px solid #e9edf0;
+  }
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    margin: 0 0 15px 0;
+  }
+  p {
+    font-size: 1.2rem;
+    margin: 0 0 0 0;
+    color: #575969;
+    line-height: 1.5;
+  }
+  img {
+    max-width: 150px;
+    position: relative;
+    left: -30px;
+    top: -30px;
+  }
+  .problem,
+  .solution {
+    position: relative;
+  }
+  .divider {
+    position: absolute;
+    bottom: -1px;
+    left: 50px;
+    width: 80px;
+    height: 5px;
+  }
+  .solution {
+    .divider {
+      background-color: #009edb;
+    }
+  }
+  .problem {
+    .divider {
+      background-color: #ef561c;
+    }
+    p {
+      margin: 0 0 27px 0;
+    }
+  }
+}

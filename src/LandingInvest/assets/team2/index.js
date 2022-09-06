@@ -1,0 +1,12 @@
+export { default as shidan } from './shidan.png';
+export { default as eddie } from './eddie.png';
+export { default as jason } from './jason.png';
+export { default as mike } from './mike.png';
+export { default as deven } from './deven.png';
+export { default as armita } from './armita.png';
+export { default as peter } from './peter.png';
+export { default as jonathan } from './jonathan.png';
+export { default as william } from './william.png';
+export { default as natasha } from './natasha.png';
+export { default as jorge } from './jorge.png';
+export { default as johnny } from './johnny.png';

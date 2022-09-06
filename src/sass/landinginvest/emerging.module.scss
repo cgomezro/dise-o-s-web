@@ -1,0 +1,225 @@
+.emerging {
+  background-color: rgba(20, 30, 71, 1);
+  padding:6% 6% 1% 6%;
+  border-radius: 14px;
+  margin: 50px 0 50px 0;
+  color:#fff;
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  p{
+    color:white;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.2;
+
+
+    }
+    h2 {
+      line-height: 1;
+      font-size: 3.3rem;
+      text-align: center;
+      color:white;
+      span{
+        font-weight: 900;
+      }
+       }
+       h3{
+      
+      line-height: 1;
+      font-size: 4.1rem;
+      text-align: center;
+      color:white;
+      line-height: 1.2;
+      
+      
+       
+       }
+      
+       .btoni {
+        border-radius: 10px;
+        background: none;
+        border: none;
+        background: #203166;
+        padding: 15px 20px 5px 20px;
+        color: #fff;
+        line-height: 0.6;
+        margin: auto!important;
+         .pdf{
+          height: 10px;
+          margin-left: 2px;
+        }
+       .ideck{
+        font-family: articulat-cf, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2rem;
+       }
+        .down{
+          font-weight: 400;
+          font-size: 0.8rem;
+        }
+      }
+  
+}
+
+.blue{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  margin-top: 140px;
+  padding-top: 215px;
+  padding-bottom: 100px;
+  margin-bottom: 220px;
+  height: 1800px;
+  p{
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.2;
+
+
+    }
+    
+    
+}
+.bluechild{
+  
+  height: 1990px;
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top:-190px;
+  padding-top: 0.5px;
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    font-size: 4.3rem;
+    text-align: center;
+    color:black;
+     }
+     h3{
+      font-family: articulat-cf, sans-serif;
+      line-height: 1;
+      font-size: 2.7rem;
+      text-align: center;
+      color:black;
+    font-weight: 400;
+    font-style: normal;
+    
+     
+     }
+    h4{
+      font-family: articulat-cf, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      line-height: 0.8;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    
+       
+  }
+
+  .our {
+  padding-bottom: 5px;
+}
+  .ourstory{
+color:black;
+padding-left:140px;
+padding-right: 20px;
+
+  }
+  .divider {
+    position: absolute;
+    bottom: -1px;
+    left: 50px;
+    width: 80px;
+    height: 5px;
+  }
+
+  .ourpurpose{
+    color:black;
+padding-left:20px;
+padding-right: 140px;
+  }
+  .logowhite{
+    height: 8%;
+    display:block;
+    margin: auto;
+  }
+
+  .check{
+    height: 15px;
+    width: 15px;
+  }
+
+  @media (max-width: 991px) {
+  .blue{
+    padding-top: 140px;
+  }
+    .bluechild {
+      h2 {
+        font-size: 2.5rem;
+      }
+      h3{
+        font-size: 1.7rem;
+      }
+      p{
+         font-size: 0.9rem;
+        }
+    }
+    .ourstory{
+       padding-left:120px;
+      padding-right: 15px;
+      
+        }
+           
+        .ourpurpose{
+      padding-left:15px;
+      padding-right: 120px;
+  }
+}
+  @media (max-width: 768px) {
+    .bluechild {
+      h2 {
+        font-size: 2.3rem;
+      }
+      h3{
+        font-size: 1.3rem;
+      }
+      p{
+            font-size: 0.8rem;
+        }
+    }
+    .ourstory{
+      padding-left:15px;
+     padding-right: 15px;
+     
+       }
+          
+       .ourpurpose{
+     padding-left:15px;
+     padding-right: 15px;
+ }
+  }
+  
+  @media (max-width: 576px) {
+    .blue{
+      padding-top: 190px;
+    }
+    .bluechild {
+      h2 {
+        font-size: 1.5rem;
+      }
+      h3{
+        font-size: 1rem;
+      }
+      p{
+            font-size: 0.8rem;
+        }
+    }
+  }
+  

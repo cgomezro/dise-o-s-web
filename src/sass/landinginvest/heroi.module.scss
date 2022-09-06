@@ -1,0 +1,143 @@
+.form{
+  color: white;
+  .formdeck{
+    background-color: #141E47;
+    height: 100%;
+    padding: 45px;
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+   align-items: center;
+  
+   .footd{
+    text-align: center;
+    align-items: center;
+   }
+   .sign{
+font-size: 0.9rem;
+font-family: articulat-cf, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+   }
+    h3{
+      font-family: articulat-cf, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 1.6rem;
+    }
+  }
+  .image{
+    background: url(./../../LandingInvest/assets/about/aboutbc.png) no-repeat center center
+  scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 100%;
+    border-bottom-right-radius: 20px!important;
+
+  }
+}
+ .innow{
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .indeck{
+    margin-left: auto;
+  margin-right: auto;
+  }
+.btoni {
+  border-radius: 10px;
+  background: none;
+  border: none;
+  background: #203166;
+  padding: 15px 20px 5px 20px;
+  color: #fff;
+  line-height: 0.6;
+  margin: auto!important;
+   .pdf{
+    height: 10px;
+    margin-left: 2px;
+  }
+ .ideck{
+  font-family: articulat-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2rem;
+ }
+
+ 
+  .down{
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}
+
+
+.btonim {
+  border-radius: 10px;
+  background: none;
+  border: none;
+  background: #203166;
+  color: #fff;
+  line-height: 0.6;
+  margin: auto!important;
+   .pdf{
+    height: 10px;
+    margin-left: 2px;
+  }
+ .ideckm{
+  font-family: articulat-cf, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.6rem;
+ }
+
+}
+
+
+
+@media (max-width: 991px) {
+  
+  .innow{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .indeck{
+      margin-left: auto;
+    margin-right: auto;
+    }
+
+    .ideck{
+  
+      font-size: 1rem!important;
+     }
+}
+
+@media (max-width: 768px) {
+ 
+  .innow{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .indeck{
+      margin-left: auto;
+    margin-right: auto;
+    }
+ 
+    .ideck{
+  
+      font-size: 1rem!important;
+     }
+}
+
+@media (max-width: 576px) {
+  button {
+      background: #203166;
+    padding:0%;
+   
+  .ideck{
+  padding:10px!important;
+    font-size: 1rem!important;
+   }
+  }}

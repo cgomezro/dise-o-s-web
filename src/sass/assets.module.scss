@@ -1,0 +1,40 @@
+.assets {
+  box-shadow: 0px 1px 14px 0 rgba(204, 204, 204, 0.5) !important;
+}
+.assets,
+.asset {
+  .price {
+    .value {
+      display: block;
+      font-weight: 600;
+    }
+    .movement {
+      &.negative {
+        color: #f44336;
+      }
+      &.positive {
+        color: #388e3c;
+      }
+    }
+  }
+}
+.asset {
+  .description {
+    h3 {
+      font-weight: 600;
+      font-size: 25px;
+      margin: 0 0 10px 0;
+    }
+    margin-bottom: 15px;
+  }
+  .stats {
+    h4 {
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}

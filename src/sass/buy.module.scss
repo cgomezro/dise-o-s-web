@@ -1,0 +1,48 @@
+.buy {
+  button {
+    height: 56px;
+  }
+  .asset-selector {
+    padding-left: 10px;
+    color: #000;
+    border-width: 2px !important;
+    .avatar {
+      margin-right: 10px;
+    }
+    p {
+      font-weight: 600;
+      opacity: 0.77;
+    }
+    .arrow {
+      opacity: 0.47;
+      margin-right: -10px;
+      font-size: 28px;
+    }
+  }
+  .swap {
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .max {
+    color: #2196f3;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+}
+
+.asset-selector-dialog {
+  .content {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .item {
+    padding-left: 25px;
+    p {
+      font-weight: 600;
+    }
+  }
+}

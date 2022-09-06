@@ -1,0 +1,48 @@
+.assets {
+  overflow-x: auto;
+  margin-bottom: 100px;
+  .asset {
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #e6eaff;
+    border:1px solid #dedede;
+    border-radius: 6px;
+    padding: 15px;
+    .meta {
+      max-width: 150px;
+      p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    .price {
+      .value {
+        display: block;
+        font-weight: 600;
+      }
+      .movement {
+        &.negative {
+          color: #f44336;
+        }
+        &.positive {
+          color: #388e3c;
+        }
+      }
+    }
+  }
+}
+
+/*
+      flex: 1;
+      min-width: 30px;
+      p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      span {
+
+      }
+
+      */

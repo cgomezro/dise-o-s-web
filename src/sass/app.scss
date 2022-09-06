@@ -1,0 +1,39 @@
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+.logo-placeholder {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.111rem;
+  img {
+    max-height: 40px;
+    display: block;
+  }
+  span {
+    margin-left: 10px;
+    line-height: 1.1;
+  }
+}
+
+.loading {
+  background-color: #fff;
+  top: 0px;
+  position: absolute;
+}
+
+.alt-input {
+  .MuiInputBase-root {
+    background: #fff;
+  }
+}
+
+.alt-select {
+  .MuiInputBase-root {
+    background-color: #fff;
+  }
+}

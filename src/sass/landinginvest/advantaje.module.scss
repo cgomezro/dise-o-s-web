@@ -1,0 +1,116 @@
+.headba{
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  h2{
+
+    font-family: articulat-cf, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 4rem;
+    span{
+      color: #6EBA63;
+    }
+  }
+
+}
+.bodya{
+  h3{
+    font-family: articulat-cf, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  img{
+    max-width: 35%;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 2%;
+  }
+  .advantage{
+    width: 80%;
+    margin: auto;
+    font-size: 0.9rem;
+  .ulist{
+    text-align: justify;        
+    .imgli{
+      list-style-image: url(./../../LandingInvest/assets/advantage/checkg.svg);
+      list-style-type: square;
+      margin-bottom:2%;
+      
+           }}
+}
+
+}
+
+  @media (max-width: 991px) {
+  .blue{
+    padding-top: 140px;
+  }
+    .bluechild {
+      h2 {
+        font-size: 2.5rem;
+      }
+      h3{
+        font-size: 1.7rem;
+      }
+      p{
+         font-size: 0.9rem;
+        }
+    }
+    .ourstory{
+       padding-left:120px;
+      padding-right: 15px;
+      
+        }
+           
+        .ourpurpose{
+      padding-left:15px;
+      padding-right: 120px;
+  }
+}
+  @media (max-width: 768px) {
+    .bluechild {
+      h2 {
+        font-size: 2.3rem;
+      }
+      h3{
+        font-size: 1.3rem;
+      }
+      p{
+            font-size: 0.8rem;
+        }
+    }
+    .ourstory{
+      padding-left:15px;
+     padding-right: 15px;
+     
+       }
+          
+       .ourpurpose{
+     padding-left:15px;
+     padding-right: 15px;
+ }
+  }
+  
+  @media (max-width: 576px) {
+    .blue{
+      padding-top: 190px;
+    }
+    .bluechild {
+      h2 {
+        font-size: 1.5rem;
+      }
+      h3{
+        font-size: 1rem;
+      }
+      p{
+            font-size: 0.8rem;
+        }
+    }
+  }
+  
